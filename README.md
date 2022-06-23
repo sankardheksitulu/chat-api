@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The API Docuementation updated in postman client and also this project deployed in heroku. Postman workspace works with deployed app.
 
-Things you may want to cover:
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/21607411-ac939ca9-f4e3-48b8-a104-4db9d06ad330?action=collection%2Ffork&collection-url=entityId%3D21607411-ac939ca9-f4e3-48b8-a104-4db9d06ad330%26entityType%3Dcollection%26workspaceId%3D64873404-0f93-4660-871c-acd933877509)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The DB design create in dbdiagram.io.
+https://dbdiagram.io/d/6035fa88fcdcb6230b2137da
