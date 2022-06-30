@@ -4,7 +4,8 @@ class Api::V1::MessagesController < ApplicationController
 
   # GET /api/v1/messages
   def index
-    @api_v1_messages = Api::V1::Message.where(:author_name => current_user.name, :receiver_name => params[:receiver_name]).all
+    # @api_v1_messages = Api::V1::Message.where(:author_name => current_user.name, :receiver_name => params[:receiver_name]).all
+    @api_v1_messages = Api::V1::Message.where(:channel_id => params[:channel_id]).limit(params[:limit]).offset(params[:offset])
 
     render json: @api_v1_messages.to_json(include: :message_replies)
   end
